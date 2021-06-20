@@ -11,7 +11,7 @@ import {
     Checkbox,
     Button,
 } from '@material-ui/core'
-import { countries } from '../ecommerce/Country'
+// import { countries } from '../ecommerce/Country'
 import {
     MuiPickersUtilsProvider,
     KeyboardDatePicker,
@@ -86,11 +86,11 @@ const PropertyListingForm = () => {
                         defaultValue=""
                         select
                     >
-                        {countries.map((country) => (
+                        {/* {countries.map((country) => (
                             <MenuItem key={country.name} value={country.name}>
                                 {country.name}
                             </MenuItem>
-                        ))}
+                        ))} */}
                     </TextField>
                 </div>
 
